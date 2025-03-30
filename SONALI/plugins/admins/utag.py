@@ -6,7 +6,7 @@ from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 from SONALI import app
-from SONALI.utils.sonali_ban import admin_filter
+from SONALI.utils.branded_ban import admin_filter
 
 SPAM_CHATS = {}
 
